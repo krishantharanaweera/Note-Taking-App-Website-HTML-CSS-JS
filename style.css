@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background: linear-gradient(to left,lightblue,lightgreen);
+    font-family: cursive;
+}
+
+.heading{
+    color:darkcyan;
+    text-align: center;
+    padding-top:20px;
+    font-size:35px;
+}
+.info-text{
+    text-align: center;
+    color:blue;
+    font-size:18px;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap:40px;
+    justify-content: center;
+    padding:50px;
+}
+.note{
+    padding:20px;
+    border-radius: 10px;
+    resize:none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    font-size: 18px;
+    height:200px;
+    color:darkcyan;
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+    transition:all 0.3s linear;
+}
+
+.note::placeholder{
+    color:gray;
+    opacity: 0.3;
+}
+.note:hover,.note:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.btn{
+    height:200px;
+    border-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: bold;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.btn:hover{
+    background-color: rgba(255,255,255,0.6);
+    color:black;
+}
